@@ -311,6 +311,9 @@ section.bl-expand .bl-icon-close {
 
 @media screen and (max-width: 46.5em) {
 
+     p {
+         margin: 50px auto 0 0;
+    }
     .bl-content,
     .bl-box {
         font-size: 75%;
