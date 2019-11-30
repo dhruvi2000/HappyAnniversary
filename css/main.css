@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+
+body.home-page {
+    background-image: url('http://bestanimations.com/Signs&Shapes/Hearts/manyhearts/small-gold-falling-hearts-pattern-animated-gif-2.gif#.Xd6Fp798eI0.link');
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    text-align: center;
+}
+
+h1 {
+    font-family: MyWebFont;
+}
+
+h3 {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+
+.button {
+    display: inline-flex;
+    height: 40px;
+    width: 150px;
+    border: 2px solid #ffffff;
+    margin: 20px 20px 20px 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#button-7 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#button-7 a {
+    position: relative;
+    left: 0;
+    transition: all .35s ease-Out;
+}
+
+#dub-arrow {
+    width: 100%;
+    height: 100%;
+    background: #e09a0d;
+    left: -200px;
+    position: absolute;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .35s ease-Out;
+    bottom: 0;
+}
+
+#button-7 img {
+    width: 20px;
+    height: auto;
+}
+
+#button-7:hover #dub-arrow {
+    left: 0;
+}
+
+#button-7:hover a {
+    left: 150px;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
